@@ -1,0 +1,87 @@
+.dream_1 {
+  background-color: #f7f7f8;
+  padding-top: 20px;
+}
+.dream_1 .sub_img_box4.col2 > li .img_box {
+  height: 280px;
+}
+.dream_1 .sub_img_box4.col4 > li .img_box {
+  height: 180px;
+}
+
+.dream_1 .sub_img_box4.col4 > .new_layout .img_box {
+  height: 200px;
+  margin-bottom: 0;
+}
+.dream_1 .s_txt1 {
+  margin-top: 20px;
+}
+.dream_text_box {
+  background-color: #f7f7f8;
+  padding: 11px 25px 10px 25px;
+  text-align: left;
+}
+.dream_text_box .s_txt3 {
+  border-bottom: solid 1px #c9c9c9;
+  padding-bottom: 10px;
+}
+.dream_1 .dream_text_box .s_txt1 {
+  margin-top: 10px;
+}
+
+.mo_none {
+  display: block;
+}
+
+.dream_3_img {
+  background-image: url(/images/dream_3.png);
+}
+
+.dream_1_img {
+  background-image: url(/images/dream_1.png);
+}
+
+.dream_2_img {
+  background-image: url(/images/dream_2.png);
+}
+
+.dream_4_img {
+  background-image: url(/images/dream_4.png);
+}
+
+.dream_100_img {
+  background-image: url(/images/dream_100.jpg);
+}
+
+.dream_101_img {
+  background-image: url(/images/dream_101.jpg);
+}
+
+.dream_102_img {
+  background-image: url(/images/dream_102.jpg);
+}
+
+.dream_8_img {
+  background-image: url(/images/dream_8.png);
+}
+
+.dream_103_img {
+  background-image: url(/images/dream_103.jpg);
+}
+
+.dream_104_img {
+  background-image: url(/images/dream_104.jpg);
+}
+
+.dream_11_img {
+  background-image: url(/images/dream_11.png);
+}
+
+@media screen and (max-width: 768px) {
+  .mo_none {
+    display: none;
+  }
+  .dream_text_box {
+    min-height: 155px;
+  }
+}
