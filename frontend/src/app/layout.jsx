@@ -2,7 +2,7 @@ import { Inter, Quando } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/header";
 import Quick from "@/components/layout/quick";
-
+import Footer from "@/components/layout/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Quick />
+        <Footer />
       </body>
     </html>
   );
